@@ -1,0 +1,29 @@
+@import '../../scss/variables';
+.nav-bar {
+    width: 7rem;
+    height: 100%;
+    background-color: $dark-color;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    
+    .nav-link {
+        color: $light-dark-color;
+        font-size: 2rem;
+        transition: all 0.3s ease-out;
+    }
+
+    .nav-link:hover {
+        color: $primary-color;
+    }
+
+    .active {
+        color: $primary-color;
+    }
+}
