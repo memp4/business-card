@@ -1,10 +1,17 @@
 import React from 'react';
 import './index.scss';
+import TextBlock from '../TextBlock';
 
 const Main = () => {
     return (
         <div className="main">
-            <p>Hello</p>
+            <TextBlock>
+                Greetings,
+                <br />
+                I'm Sultan,
+                <br />
+                Web developer
+            </TextBlock>
         </div>
     );
 };
