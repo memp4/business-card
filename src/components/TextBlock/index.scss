@@ -10,24 +10,56 @@
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-    animation-delay: 1.2s;
+    margin-bottom: 70px;
+
     &:before {
         content: "<---->";
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         position: absolute;
         margin-top: -40px;
         margin-left: 25px;
         font-size: 1.5rem;
         opacity: 0.6;
     }
+
     &:after {
         content: "<---->";
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         position: absolute;
         display: block;
         margin-top: 20px;
         margin-left: 25px;
         font-size: 1.5rem;
         opacity: 0.6;
+    }
+
+    .line {
+        display: inline-block;
+        position: relative;
+        z-index: 3;
+    }
+
+    .line:hover {
+        cursor: default;
+    }
+
+    .line::before {
+        content: " ";
+        z-index: -1;
+        background-color: $dark-color;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        // inset: 0 0 0 0;
+        display: block;
+        transform: scaleX(0);
+        transition: transform .3s ease;
+        transform-origin: bottom left;
+    }
+    .line:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
     }
 }
