@@ -56,10 +56,10 @@
         display: block;
         transform: scaleX(0);
         transition: transform .3s ease;
-        transform-origin: bottom left;
+        transform-origin: -10px;
     }
     .line:hover::before {
         transform: scaleX(1);
-        transform-origin: bottom left;
+        transform-origin: -10px;
     }
 }
