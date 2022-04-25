@@ -3,10 +3,9 @@
 
 .text-block {
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3.4rem;
     font-style: italic;
     color: $light-color;
-    padding-top: 20%;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -16,7 +15,7 @@
         content: "<---->";
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         position: absolute;
-        margin-top: -40px;
+        margin-top: -30px;
         margin-left: 25px;
         font-size: 1.5rem;
         opacity: 0.6;
@@ -27,7 +26,7 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         position: absolute;
         display: block;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-left: 25px;
         font-size: 1.5rem;
         opacity: 0.6;

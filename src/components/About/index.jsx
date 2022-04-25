@@ -6,7 +6,7 @@ import TextBlock from '../TextBlock';
 const About = () => {
     return (
         <div className="main">
-            <TextBlock>
+            <TextBlock style={{paddingTop: '20%'}}>
                 <p className="line">About me</p>
             </TextBlock>
             <p className="article">

@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.scss';
 
-const TextBlock = ({ children }) => {
+const TextBlock = ({ children, style }) => {
     return (
-        <div className="text-block">
+        <div className="text-block" style={style}>
             {children}
         </div>
     );

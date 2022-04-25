@@ -27,4 +27,21 @@
     .active {
         color: $primary-color;
     }
+
+    .nav-contacts {
+        position: absolute;
+        bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        a {
+            color: $light-dark-color;
+            transition: all 0.3s ease-out;
+        }
+
+        a:hover {
+            color: $primary-color;
+        }
+    }
 }
