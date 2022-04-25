@@ -6,8 +6,7 @@ const Button = () => {
     //It should contain child prop instead certain elements
     return (
         <div className="button">
-            <span>Contact me!</span>
-            <span>Click on me!</span>
+            Contact me!
         </div>
     );
 };
