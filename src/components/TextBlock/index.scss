@@ -6,10 +6,8 @@
     font-size: 3.4rem;
     font-style: italic;
     color: $light-color;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
     margin-bottom: 70px;
+    max-width: 30rem;
 
     &:before {
         content: "<---->";
@@ -51,7 +49,6 @@
         left: 0;
         top: 0;
         bottom: 0;
-        // inset: 0 0 0 0;
         display: block;
         transform: scaleX(0);
         transition: transform .3s ease;

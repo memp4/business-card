@@ -9,9 +9,7 @@ const Main = () => {
         <div className="main">
             <TextBlock style={{ paddingTop: '20%' }}>
                 <p className="line">Greetings,</p>
-                <br />
                 <p className="line">I'm Sultan,</p>
-                <br />
                 <p className="line">Web Developer</p>
             </TextBlock>
             <Link to="/contact">
