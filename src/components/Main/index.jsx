@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
 import TextBlock from '../TextBlock';
+import Line from '../Line';
 import Button from '../Button';
 import { Link } from 'react-router-dom';
 
@@ -8,9 +9,9 @@ const Main = () => {
     return (
         <div className="main">
             <TextBlock style={{ paddingTop: '20%' }}>
-                <p className="line">Greetings,</p>
-                <p className="line">I'm Sultan,</p>
-                <p className="line">Web Developer</p>
+                <Line lettersArr={"Greetings".split('')} />
+                <Line lettersArr={"I'm Sultan,".split('')} />
+                <Line lettersArr={"Web Developer".split('')}/>
             </TextBlock>
             <Link to="/contact">
                 <Button />

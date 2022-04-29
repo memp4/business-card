@@ -2,12 +2,13 @@ import React from 'react';
 import './index.scss';
 
 import TextBlock from '../TextBlock';
+import Line from '../Line';
 
 const About = () => {
     return (
         <div className="main">
             <TextBlock style={{paddingTop: '20%'}}>
-                <p className="line">About me</p>
+                <Line lettersArr={'About me'.split('')}/>
             </TextBlock>
             <p className="article">
                 I'm frontend developer. I have good knowledge of HTML, CSS and JavaScript.

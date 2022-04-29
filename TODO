@@ -1,4 +1,7 @@
-- Add animations for all elements, something like fade in
+- Make button more universal
+- Make response about email in Contact component when you send it:
+"After clicking on sending it should show load animation.
+And after successful or unsuccessful sending it shows the answer."
 
 - Add slider with SVG in about page and add animations to it
 

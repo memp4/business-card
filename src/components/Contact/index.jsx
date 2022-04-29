@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
 import './index.scss';
-import TextBlock from '../TextBlock';
 import emailjs from '@emailjs/browser';
+
+import TextBlock from '../TextBlock';
+import Line from '../Line';
 
 const Contact = () => {
     const refEmail = useRef();
@@ -23,7 +25,7 @@ const Contact = () => {
     return (
         <div className='main'>
             <TextBlock style={{ paddingTop: '3%' }}>
-                Contact me!
+                <Line lettersArr={'Contact me!'.split('')}/>
             </TextBlock>
             <p className='article'>
                 I'm interested in freelance or remote jobs.
