@@ -10,7 +10,7 @@ const Line = ({ lettersArr }) => {
     }
     const spanLettersArr = lettersArr.map((letter, index) => {
         return ( letter === ' ' ? 
-            <span style={{marginInline: "0.5rem"}}></span> :
+            <span style={{marginInline: "0.5rem"}} key={`${letter}_${index}`}></span> :
             <motion.li
                 key={`${letter}_${index}`}
                 whileHover={bounce}
