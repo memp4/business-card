@@ -25,7 +25,7 @@ const Contact = () => {
     return (
         <div className='main'>
             <TextBlock style={{ paddingTop: '3%' }}>
-                <Line lettersArr={'Contact me!'.split('')}/>
+                <Line lettersArr={'Contact me!'.split('')} />
             </TextBlock>
             <p className='article'>
                 I'm interested in freelance or remote jobs.

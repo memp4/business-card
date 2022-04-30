@@ -14,7 +14,9 @@ const Main = () => {
                 <Line lettersArr={"Web Developer".split('')}/>
             </TextBlock>
             <Link to="/contact">
-                <Button />
+                <Button color={"#f6ebcb"} hoverColor={"#252d2d"}>
+                    Contact me!
+                </Button>
             </Link>
         </div>
     );

@@ -7,13 +7,7 @@
     animation-name: fadeIn;
     animation-duration: 1.5s;
     transition: all 0.3s;
-    border: 1px solid $light-color;
-    color: $light-color;
+    border: 1px solid;
     padding: 0.7rem 1.3rem;
-
-    &:hover {
-        cursor: pointer;
-        background-color: $light-color;
-        color: $dark-color;
-    }
+    max-width: 14rem;
 }
