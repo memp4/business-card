@@ -6,5 +6,11 @@
     z-index: -9;
     padding-left: 8rem;
     background-color: $light-dark-color;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    &-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
