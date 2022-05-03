@@ -3,7 +3,7 @@ import './index.scss';
 
 import { useState } from 'react';
 
-const Button = ({ children, color, hoverColor }) => {
+const Button = ({ children, color, hoverColor, onClick }) => {
     const [buttonColor, setButtonColor] = useState({
         borderColor: color,
         color: color,
@@ -32,6 +32,7 @@ const Button = ({ children, color, hoverColor }) => {
             style={buttonColor}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            onClick={onClick}
         >
             {children}
         </div>

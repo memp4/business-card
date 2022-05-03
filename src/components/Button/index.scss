@@ -10,4 +10,8 @@
     border: 1px solid;
     padding: 0.7rem 1.3rem;
     max-width: 14rem;
+
+    &:hover {
+        cursor: pointer;
+    }
 }

@@ -1,0 +1,28 @@
+.slider {
+    margin-right: 10rem;
+
+    &-wrapper {        
+        height: 20rem;
+        width: 24rem;
+        overflow: hidden;
+        padding-inline: 2rem;
+    }
+
+    &-inner {
+        display: flex;
+        gap: 2rem;
+        height: 20rem;
+        width: 100%;
+
+        .icon {
+            width: 20rem;
+            height: 20rem;
+        }
+    }
+
+    &-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+}
