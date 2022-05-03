@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/business-card/static/css/main.8a49c791.css",
+    "main.js": "/business-card/static/js/main.f15acee5.js",
+    "static/media/Sass.svg": "/business-card/static/media/Sass.540ec25faf04e640b555c5773d3a6d9f.svg",
+    "static/media/Redux.svg": "/business-card/static/media/Redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/Git.svg": "/business-card/static/media/Git.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/JavaScript.svg": "/business-card/static/media/JavaScript.acc4642f682cd93a4c20a8a02c0cfa21.svg",
+    "index.html": "/business-card/index.html",
+    "static/media/React.svg": "/business-card/static/media/React.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.8a49c791.css.map": "/business-card/static/css/main.8a49c791.css.map",
+    "main.f15acee5.js.map": "/business-card/static/js/main.f15acee5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a49c791.css",
+    "static/js/main.f15acee5.js"
+  ]
+}
