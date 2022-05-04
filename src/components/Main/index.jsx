@@ -16,7 +16,7 @@ const Main = () => {
                     <Line lettersArr={"I'm Sultan,".split('')} />
                     <Line lettersArr={"Web Developer".split('')} />
                 </TextBlock>
-                <Link to="/contact">
+                <Link to="/business-card/contact">
                     <Button color={"#f6ebcb"} hoverColor={"#252d2d"}>
                         Contact me!
                     </Button>

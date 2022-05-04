@@ -10,9 +10,9 @@ function App() {
     <>
       <Sidebar />
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="business-card/" element={<Main />} />
+        <Route path="business-card/about" element={<About />} />
+        <Route path="business-card/contact" element={<Contact />} />
       </Routes>
     </>
   );
